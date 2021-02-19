@@ -4,16 +4,16 @@
     <mat-nav-list (click)="closeSideNav()">
       <a mat-list-item [routerLink]="['/filmes/listagem']">Inicial</a>
       <mat-divider></mat-divider>
-      <a mat-list-item [routerLink]="['/filmes/cadastro']">Cadastrar novo Filme</a>
+      <a mat-list-item [routerLink]="['/filmes/cadastro']">Cadastrar Filme</a>
       <mat-divider></mat-divider>
     </mat-nav-list>
   </mat-sidenav>
   <mat-sidenav-content>
     <mat-toolbar color="primary" class="header-toolbar">
       <button type="button" aria-label="Toggle sidenav" mat-icon-button (click)="openSideNav()">
-        <mat-icon aria-label="Side nav toggle icon"> menu</mat-icon>
+        <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
       </button>
-      <span>Minha Lista de Filmes</span>
+      <span>Denner Filmes</span>
       <button mat-icon-button [matMenuTriggerFor]="menu">
         <mat-icon>more_vert</mat-icon>
       </button>
